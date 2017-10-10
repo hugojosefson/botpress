@@ -8,7 +8,7 @@ module.exports = {
 
   config: { },
 
-  init: async function(bp, configurator) {
+  init: async function(bp, configurator) { // eslint-disable-line no-unused-vars
     // This is called before ready.
     // At this point your module is just being initialized, it is not loaded yet.
   },
@@ -17,7 +17,7 @@ module.exports = {
     // Your module's been loaded by Botpress.
     // Serve your APIs here, execute logic, etc.
 
-    const config = await configurator.loadAll()
+    const config = await configurator.loadAll() // eslint-disable-line no-unused-vars
     // Do fancy stuff here :)
 
   }
